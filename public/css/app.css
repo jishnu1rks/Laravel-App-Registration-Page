@@ -1,0 +1,68 @@
+html,
+body {
+    background: #b7b7a4;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    /* min-height: 100vh; */
+}
+
+.mastfoot {
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.main-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.main-btns a {
+    margin: 10px;
+}
+
+.register-box,
+.login-box {
+    background-color: #cb997e;
+    width: 50%;
+    margin: auto;
+    padding: 20px 50px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.login-box {
+    width: 35%;
+}
+
+a {
+    font-weight: 700;
+    color: #000;
+    font-style: italic;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+#profile-box {
+    width: 75%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+}
